@@ -3,6 +3,13 @@ public class Griffindor {
     private int nobility;
     private int honor;
     private int bravery;
+    public Griffindor(String name, int nobility, int honor, int bravery) {
+        this.name = name;
+        this.nobility = nobility;
+        this.honor = honor;
+        this.bravery = bravery;
+
+    }
 
     public String getName() {
         return name;
@@ -34,13 +41,5 @@ public class Griffindor {
 
     public void setBravery(int bravery) {
         this.bravery = bravery;
-    }
-
-    public Griffindor(String name, int nobility, int honor, int bravery) {
-        this.name = name;
-        this.nobility = nobility;
-        this.honor = honor;
-        this.bravery = bravery;
-
     }
 }

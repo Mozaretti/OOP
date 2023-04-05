@@ -4,6 +4,14 @@ public class Kogtevran {
     private int wisdom;
     private int wit;
     private int creation;
+    public Kogtevran(String name, int mind, int wisdom, int wit, int creation) {
+        this.name = name;
+        this.mind = mind;
+        this.wisdom = wisdom;
+        this.wit = wit;
+        this.creation = creation;
+
+    }
 
     public String getName() {
         return name;
@@ -43,14 +51,5 @@ public class Kogtevran {
 
     public void setCreation(int creation) {
         this.creation = creation;
-    }
-
-    public Kogtevran(String name, int mind, int wisdom, int wit, int creation) {
-        this.name = name;
-        this.mind = mind;
-        this.wisdom = wisdom;
-        this.wit = wit;
-        this.creation = creation;
-
     }
 }

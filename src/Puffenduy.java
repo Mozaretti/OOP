@@ -3,6 +3,13 @@ public class Puffenduy {
     private int industriousness;
     private int loyalty;
     private int honesty;
+    public Puffenduy(String name, int industriousness, int loyalty, int honesty) {
+        this.name = name;
+        this.industriousness = industriousness;
+        this.loyalty = loyalty;
+        this.honesty = honesty;
+
+    }
 
     public String getName() {
         return name;
@@ -34,13 +41,5 @@ public class Puffenduy {
 
     public void setHonesty(int honesty) {
         this.honesty = honesty;
-    }
-
-    public Puffenduy(String name, int industriousness, int loyalty, int honesty) {
-        this.name = name;
-        this.industriousness = industriousness;
-        this.loyalty = loyalty;
-        this.honesty = honesty;
-
     }
 }
